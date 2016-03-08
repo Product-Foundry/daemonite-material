@@ -6,7 +6,8 @@
 	@import "colours";
 
 // font
-	@import url(https://fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,500,500italic);
+//  TODO [AK] Font is disabled because it breaks the less compiler, which we use to embed this CSS. It could also be argued it is an application responsibility to include the fonts.
+//	@import url(https://fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,500,500italic);
 
 	$font-fam:           Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	$font-fam-mono:      Monaco, Menlo, Consolas, "Courier New", monospace;
